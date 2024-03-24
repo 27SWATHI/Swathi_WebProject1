@@ -1,0 +1,114 @@
+.header-main{
+    box-shadow: #000000 1px 1px 10px;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 52% 48%;
+}
+
+.header-div{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 300px; 
+    height: 500px; 
+    overflow: auto; 
+    padding-right: 590px; 
+
+}
+
+.header-div h1{
+    font-size: larger;
+}
+
+.header-group {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    
+  }
+  
+.header-group div {
+    margin-right: 20px; 
+  }
+
+.header-group div input {
+    border: none;
+    border-bottom: gray 1px solid;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+.image img{
+    width: 98%;
+    height: 550px;
+    margin-right: 5px;
+}
+
+.header-group1{
+    margin-top: 20px;
+}
+
+.header-group1 label{
+    font-weight: 1000px;
+    font-size: large;
+}
+
+.header-group1 select{
+    margin-top: 15px ;
+    font-size: medium;
+}
+
+#district {
+    width: 100px; 
+    height: 35px
+}
+
+.choose p{
+    margin-top: 0%;
+    font-size: medium;
+}
+
+.choose h1.h{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.choose input{
+    font-size: large;
+    margin-bottom:10px ;
+}
+  
+.choose1 h1{
+    font-size: 25px;
+}
+
+.choose1 p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.choose1 input{
+    padding: 10px;
+}
+
+.choose1 input.clock{
+    margin-bottom: 30px;
+}
+
+.data{
+    text-align: center ;
+}
+
+.data button{
+    background-color: blueviolet;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    font-size: large;
+}
